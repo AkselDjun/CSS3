@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #gradient {
+            width: 500px;
+            height: 200px;
+            background-color: blue;
+            background: linear-gradient(155deg, white, green, blue, red);
+        }
+
+        #radialGradient {
+            width: 500px;
+            height: 200px;
+            background-color: blue;
+            background: radial-gradient(blue, yellow, red)
+        }
+
+        #Grad {
+            width: 500px;
+            height: 200px;
+            background: linear-gradient(45deg, yellow, green)
+        }
+
+        h2 {
+            text-shadow: 2px 2px 4px green, -5px -5px 4px yellow;
+            color: white;
+        }
+
+        h3 {
+            text-shadow: 0 0 5px red;
+
+        }
+
+        #shadow {
+            width: 300px;
+            height: 200px;
+            box-shadow: 12px 12px 12px gray;
+            background-color: rosybrown;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>This will have a shadow</h2>
+
+    <h3>This text will glow</h3>
+
+    <div id="shadow"></div>
+
+    <div id="gradient">
+        <h1>This is gradient</h1>
+    </div>
+
+    <div id="Grad">
+        <h1></h1>
+    </div>
+
+    <div id="radialGradient">
+        <h1>This is radial Gradient</h1>
+    </div>
+
+</body>
+
+</html>
